@@ -1,9 +1,3 @@
-console.log("Hello World.", 43, 409.23, true, false, ["banana", "apple", "orange"]);
-
-console.log(typeof("Hello World."), typeof (342334), typeof(["banana"]))
-
-//string = "asd"
-
 let btnRegister = document.querySelector('#btnRegister');
 let txtUsernsmer = document.querySelector("#txtUsername");
 let txtPassword = document.querySelector("#txtPassword");
@@ -15,7 +9,7 @@ register(txtUsername.value, txtPassword.value, txtConfirmPassword.value, txtAge.
 }
 
 function register (username, password, confirmPassword, age) {
-    alert(username);  
+    console.log(username, password, confirmPassword, age);  
     //alert("Register button has been clicked.")
 
 }
